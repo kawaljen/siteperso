@@ -1,0 +1,32 @@
+{
+    "theme": "web techno",
+    "description": "repartition des techno / boulot en freelance",
+    "hideItemList": [],
+    "active": true,
+    "items": [
+      {
+        "itemName": "site perso",
+        "itemDesc": "wordpress",
+        "itemData":  ["data1", "data2", "data3"],
+        "hide":false
+      },
+      {
+        "itemName": "Made in Shoreditch",
+        "itemDesc": "wordpress",
+        "itemData":  ["data1", "data2", "data3"],
+        "hide":false
+      },
+      {
+        "itemName": "imbriqués",
+        "itemDesc": "HTML/CSS/JS",
+        "itemData":  ["data1", "data2", "data3"],
+        "hide":false
+      },
+      {
+        "itemName": "Nature environnment",
+        "itemDesc": "joomla",
+        "itemData":  ["data1", "data2", "data3"],
+        "hide":true
+      }
+    ]
+  }
