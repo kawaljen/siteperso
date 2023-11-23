@@ -181,12 +181,31 @@ header img{
 }
 .skills .data{
     color:#eecd10;
+    background: rgba(0,212,255,1);
+    /* border:1px solid #cee0e7; */
+}
+.skills .data.expert{
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(0,212,255,1) 80%, rgba(255,255,255,1) 100%);
+}
+.skills .data.starter{
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(255,255,255,1) 30%);
+}
+.skills .data.medium{
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(255,255,255,1) 100%);
+}
+.skills .data.knowlegeable{
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%,  rgba(0,212,255,1) 70%, rgba(255,255,255,1) 100%);
+}
+.skills .data span{
+    font-size: 0.5em;
+    visibility: hidden;
 }
 .skills .icon-bookmarks{
     position:absolute;
     left:0;
     top:15px;
 }
+
 /* *************************************************** */
 .portfolio .content{
     text-align: left;
