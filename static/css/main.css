@@ -1,7 +1,18 @@
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Font/Gotham-Book.eot'), url('../fonts/Gotham-Font/Gotham-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+} 
+
 * {
     box-sizing: border-box; 
     margin: 0; 
     padding: 0;
+
+}
+body{
+    font-family: Gotham, Tahoma !important;
 }
 
 .container, 
@@ -9,6 +20,7 @@ section,
 ul, 
 li { 
     width:100%;
+    
 }
 
 img {
@@ -20,6 +32,7 @@ img {
 ul {
     list-style-type: none;
  }
+
 /* *************************************************** */
 html, 
 body {
