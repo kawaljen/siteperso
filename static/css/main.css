@@ -6,8 +6,7 @@
 
 .container, 
 section, 
-ul, 
-li { 
+ul{ 
     width:100%;
 }
 
@@ -19,6 +18,10 @@ img {
   
 ul {
     list-style-type: none;
+ }
+ a {
+    color:#6bc7f5;
+    text-decoration-line: none;
  }
 /* *************************************************** */
 html, 
@@ -120,6 +123,9 @@ main section {
 .grid-notresp .columns4 {
     width: 25%;
 }
+.content{
+    margin-top: 15px;
+}
 /* *************************************************** */
 header {
     margin: 130px auto;
@@ -172,38 +178,28 @@ header img{
 }
 .skills .content ul{ 
     column-count: 2;
-    padding:10px 40px 50px;
+    padding:10px 30px 50px;
 }
 .skills .content li{
     padding:10px 0 0 20px;
     position:relative;
     text-align:left;
+    display: inline-block;
 }
 .skills .data{
     color:#eecd10;
-    background: rgba(0,212,255,1);
-    /* border:1px solid #cee0e7; */
+
 }
-.skills .data.expert{
-    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(0,212,255,1) 80%, rgba(255,255,255,1) 100%);
-}
-.skills .data.starter{
-    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(255,255,255,1) 30%);
-}
-.skills .data.medium{
-    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(255,255,255,1) 100%);
-}
-.skills .data.knowlegeable{
-    background: linear-gradient(90deg, rgba(0,212,255,1) 0%,  rgba(0,212,255,1) 70%, rgba(255,255,255,1) 100%);
-}
+
 .skills .data span{
-    font-size: 0.5em;
-    visibility: hidden;
+    font-size: 0.6em;
 }
-.skills .icon-bookmarks{
+.skills .icon-bullet{
     position:absolute;
     left:0;
-    top:15px;
+    top:20px;
+    color:#6bc7f5;
+    font-size: 8px;
 }
 
 /* *************************************************** */
@@ -237,7 +233,6 @@ header img{
 .qualification ul {
     margin:30px 0;
     width:100%;
-    text-align: center;
 }
 .qualification .content{
     display:none;
@@ -268,7 +263,18 @@ header img{
 .qualification .dates{
    color:#808080;
 }
-
+.qualification ul .tags{
+    font-size: small;
+}
+.qualification .tags li{
+    background-color:#9bdeff;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 4px 8px;
+    margin: 4px;
+    text-align: left;
+    color: #fff;
+ }
 /* *************************************************** */
 .contact-form .form-input {
 	padding: 15px;
@@ -305,5 +311,8 @@ header img{
 
     .about .content{
         text-align:center;
+    }
+    .skills .content ul {
+        column-count: 3;
     }
 }
