@@ -1,7 +1,8 @@
 document.addEventListener('DOMContentLoaded', function () {
     const mobileMenuButton = document.getElementById('mobile-menu');
     const mobileMenuClose = document.getElementById('close-button');
-    const navClasses =document.getElementById('nav').classList;
+    const navClasses = document.getElementById('nav').classList;
+    const nav = document.getElementById('nav');
 
   
     mobileMenuButton.addEventListener('click', function () {
@@ -10,6 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
     mobileMenuClose.addEventListener('click', function () {
         navClasses.toggle("close");
       });
+    window.addEventListener("resize", (event) => { nav.className = "close";});
 
 
 
