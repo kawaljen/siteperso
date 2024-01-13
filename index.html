@@ -22,21 +22,34 @@
     
     <script defer="defer" src="./static/js/main.js"></script>
     <link href="./static/css/main.css" rel="stylesheet">
-    <link href="./static/css/main-testsass.css" rel="stylesheet">
-    <link href="./static/css/percentage.css" rel="stylesheet">
+    <!-- <link href="./static/css/main-testsass.css" rel="stylesheet">
+    <link href="./static/css/percentage.css" rel="stylesheet"> -->
 
     <link href="./static/css/icomoon.css" rel="stylesheet">
 </head>
 
 <body>
-    <nav></nav>
+    <nav id="nav"> 
+        <span id="mobile-menu">lll</span>
+        <div>
+            <a href="#" id="home">Alexandra Persilié</a>
+            <ul>
+                <li><a href="#skills" >Compétences</a></li>
+                <li><a href="#portfolio" >Portfolio</a></li>
+                <li><a href="#qualification" >Expériences</a></li>
+                <li><a href="#contact" >Contactez moi</a></li>
+            </ul>
+            <span id="close-button">X</span>
+        </div>
+    </nav>
     <header>
         <div class="container grid">
-            <div class="columns2">
+            <div class="columns2 title">
                 <h1>Hello ! </h1>
-                <h2>My name is Alexandra Persilié <br>I am a web developer</h2>
-                <!-- Développeuse Front-End</h2> -->
-                <p>I develop dynamic creative and functional websites, from visual communication to code, through the new web languages.</p>
+                <!-- <h2>My name is Alexandra Persilié <br>I am a web developer</h2> -->
+                <h2>Je m'appelle Alexandra <br>Je suis développeuse Web</h2>                
+                <p>Je développe des sites créatifs et fonctionnels, de la communication visuelle au code avec les nouvelles technos du web</p>
+                <!-- <p>I develop dynamic creative and functional websites, from visual communication to code, through the new web languages.</p> -->
                 <a href="mailto:persiliealexandra@gmail.com" class="button">Contact me ! <span class="icon-mail"></span></a>
             </div>
             <div class="columns2">
@@ -84,11 +97,13 @@
 
 
         <section class="skills" id="skills">
-            <h2>Mes compétences</h2>
-            <p>Environnement technique</p>
+            <div class="title">
+                <h2>Mes compétences</h2>
+                <p>Environnement technique</p>
+            </div>
             <div class="grid">
                 <div class="columns3 border content">
-                    <h3>languages</h3>
+                    <h3>Languages</h3>
                     <ul>
                         <li>    
                             <span class="icon-bullet "></span>HTML
@@ -121,33 +136,40 @@
                                 <span class="icon-star-full"></span>
                                 <span class="icon-star-full"></span>
                                 <span class="icon-star-full"></span>
-                                <span class="icon-star-empty"></span>
+                                <span class="icon-star-full"></span>
                             </div>
 
                         </li>
                         <li>    
-                            <span class="icon-bullet"></span>Node JS
-                            <div class="data medium">
+                            <span class="icon-bullet"></span>PHP
+                            <div class="data starter">
                                 <span class="icon-star-full"></span>
                                 <span class="icon-star-full"></span>
-                                <span class="icon-star-empty"></span>
-                                <span class="icon-star-empty"></span>
+                                <span class="icon-star-full"></span>
+                                <span class="icon-star-full"></span>
+                                <span class="icon-star-full"></span>
+                            </div>
+                        </li>
+                        <li>    
+                            <span class="icon-bullet"></span>C#
+                            <div class="data starter">
+                                <span class="icon-star-full"></span>
+                                <span class="icon-star-full"></span>
+                                <span class="icon-star-full"></span>
+                                <span class="icon-star-full"></span>
                                 <span class="icon-star-empty"></span>
                             </div>
-
                         </li>
                         <li>    
                             <span class="icon-bullet"></span>Typescript
                             <div class="data starter">
                                 <span class="icon-star-full"></span>
                                 <span class="icon-star-full"></span>
-                                <span class="icon-star-empty"></span>
+                                <span class="icon-star-full"></span>
                                 <span class="icon-star-empty"></span>
                                 <span class="icon-star-empty"></span>
                             </div>
-
                         </li>
-
                     </ul>
                 </div>
                 <div class="columns3 border content">
@@ -158,8 +180,8 @@
                             <div class="data medium">
                                 <span class="icon-star-full"></span>
                                 <span class="icon-star-full"></span>
-                                <span class="icon-star-empty"></span>
-                                <span class="icon-star-empty"></span>
+                                <span class="icon-star-full"></span>
+                                <span class="icon-star-full"></span>
                                 <span class="icon-star-empty"></span>
                             </div>
 
@@ -169,7 +191,7 @@
                             <div class="data starter">
                                 <span class="icon-star-full"></span>
                                 <span class="icon-star-full"></span>
-                                <span class="icon-star-empty"></span>
+                                <span class="icon-star-full"></span>
                                 <span class="icon-star-empty"></span>
                                 <span class="icon-star-empty"></span>
                             </div>
@@ -186,8 +208,8 @@
                             <div class="data expert">
                                 <span class="icon-star-full"></span>
                                 <span class="icon-star-full"></span>
-                                <span class="icon-star-empty"></span>
-                                <span class="icon-star-empty"></span>
+                                <span class="icon-star-full"></span>
+                                <span class="icon-star-full"></span>
                                 <span class="icon-star-empty"></span>
                             </div>
 
@@ -196,8 +218,8 @@
                             <span class="icon-bullet"></span>Django
                             <div class="data starter">
                                 <span class="icon-star-full"></span>
-                                <span class="icon-star-empty"></span>
-                                <span class="icon-star-empty"></span>
+                                <span class="icon-star-full"></span>
+                                <span class="icon-star-full"></span>
                                 <span class="icon-star-empty"></span>
                                 <span class="icon-star-empty"></span>
                             </div>
@@ -210,7 +232,7 @@
                                 <span class="icon-star-full"></span>
                                 <span class="icon-star-full"></span>
                                 <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
+                                <span class="icon-star-empty"></span>
                                 <span class="icon-star-empty"></span>
                             </div>
 
@@ -222,8 +244,10 @@
 
 
         <section id="portfolio" class="portfolio">
-            <h2>Portfolio</h2>
-            <p>Mes dernières réalisations</p>
+            <div class="title">
+                <h2>Portfolio</h2>
+                <p>Mes dernières réalisations</p>
+            </div>
 
 
             <!--<div class="edgtf-eh-item-content edgtf-eh-custom-7621" style="padding: 51px 110px 80px 0px">
@@ -272,19 +296,19 @@
 
             <ul class="content grid">
                 <li class="border columns3 data">
-                    <img src="https://img.freepik.com/photos-gratuite/fond-ete-saison-pelucheux-propre_1122-2407.jpg" alt="aucun probleme"/>   
+                    <img src="https://declics.eu/porto/800-ee64.png" alt="EE64 website"/>   
                     <h3>Education environnement</h3>
                     <p>Site Joomla avec un panier codé en OO PHP</p>
                     <a href="https://github.com/kawaljen/madeinshoreditch" target="_blank">Voir le code du panier sur Github</a>
                 </li>
                 <li class="border columns3 data">
-                    <img src="https://img.freepik.com/photos-gratuite/fond-ete-saison-pelucheux-propre_1122-2407.jpg" alt="aucun probleme"/>
-                    <h3>Jeux de fleurs</h3>
-                    <p>Lorem ipsum</p>
+                    <img src="https://declics.eu/porto/800-folie_douce.png" alt="Folie doyce"/>
+                    <h3>Folie douce</h3>
+                    <p>Site Wordpress  avec un thème créé sur mesure</p>
 
                 </li>
                 <li class="border columns3 data">
-                    <img src="https://img.freepik.com/photos-gratuite/fond-ete-saison-pelucheux-propre_1122-2407.jpg" alt="aucun probleme"/>
+                    <img src="https://declics.eu/porto/800-MISbtq.png" alt="Made in shoreditch website"/>
                     <h3>Made in Shoreditch</h3>
                     <p>Site wordpress avec un thème créé sur mesure</p>
                     <a href="" target="_blank">Voir le theme Wordpress sur Github</a>
@@ -294,7 +318,9 @@
 
 
         <section class="qualification" id="qualification">
-            <h2>Expériences <!--<span class="icon-briefcase"></span> --></h2>
+            <div class="title">
+                <h2>Expériences <!--<span class="icon-briefcase"></span> --></h2>
+            </div>
             <!-- <ul class="button-container">
                 <li class="button">    
                     <span class="icon-earth"></span></span> Formations
@@ -320,10 +346,11 @@
                     </li>
 
                 </ul>
-                <ul class="content active ">
+                <ul class="content active jobs">
                     <li class="grid-notresp">
+                       <span class="bullet"></span>  
                        <div class="block columns4"> 
-                            <div class="title">Developpeur web</div>
+                            <div class="position">Développeuse web</div>
                             <div class="info">Mediaclash</div>
                             <div class="dates">Janvier-mai 2016</div>
                             <ul class="tags">
@@ -334,14 +361,15 @@
                                 <li>PHP</li>
                             </ul>
                         </div>
-                       <div class="block line columns4">|</div>
+                       <div class="block line columns4"><span></span><span></span></div>
                        <div class="block vide columns4">vide</div>
                     </li>
-                    <li class="grid-notresp">                
+                    <li class="grid-notresp">
+                        <span class="bullet"></span>                
                         <div class="block vide columns4">vide</div>
-                        <div class="block line columns4">|</div>
+                        <div class="block line columns4"><span></span><span></span></div>
                         <div class="block columns4"> 
-                            <div class="title">Developpeur web</div>
+                            <div class="position">Développeuse web</div>
                             <div class="info">Abel and Cole</div>
                             <div class="dates">Janvier-septembre 2015</div>
                             <ul class="tags">
@@ -353,8 +381,9 @@
                         </div>
                     </li>
                     <li class="grid-notresp">
+                        <span class="bullet"></span>  
                         <div class="block columns4"> 
-                            <div class="title">Rich media testeur</div>
+                            <div class="position">Rich media testeur</div>
                             <div class="info">Opera</div>
                             <div class="dates">Juillet-decembre 2014 </div>
                             <ul class="tags">
@@ -362,14 +391,15 @@
                                 <li>css</li>
                             </ul>
                         </div>
-                        <div class="block line columns4">|</div>
+                        <div class="block line columns4"><span></span><span></span></div>
                         <div class="block vide columns4">vide</div>
                     </li>
                     <li class="grid-notresp">
+                        <span class="bullet"></span>  
                         <div class="block vide columns4">vide</div>
-                        <div class="block line columns4">|</div>
+                        <div class="block line columns4"><span></span><span></span></div>
                         <div class="block columns4"> 
-                            <div class="title">Free lance Web dev</div>
+                            <div class="position">Free lance Web dev</div>
                             <div class="dates">2013-2020 </div>
                             <ul class="tags">
                                 <li>Wordpress</li>
@@ -386,38 +416,43 @@
 
 
         <section id="contact" class="contact">
-            <h2>Contactez moi</h2>
-            <p>Keep in touch</p>
+            <div class="title">
+                <h2>Contactez moi</h2>
+                <p>Keep in touch</p>
+            </div>
             <div class="grid">
                 <ul class="columns3">
-                    <li>
+                    <li class="border">
                         <a href="mailto:persiliealexandra@gmail.com">
-                            <span class="icon-mail4"></span>
-                                 Email
-                            <span>Ecrivez moi -></span>
+                            <div class="icon-mail icon"></div>
+                            <div>    Email</div>
+                            <div>Ecrivez moi -></div>
                         </a>
                     </li>
-                    <li>
+                    <li class="border">
                         <a href="https://www.linkedin.com/in/alexandra-persili%C3%A9-43456697/" target="_blank">
-                            <span class="icon-linkedin"></span>
-                             Linkedin
+                            <div class="icon-linkedin icon"></div>
+                             <div>Linkedin</div>
+                             <div>Consulter mon profil -></div>
                         </a>
                     </li>
-                    <li>
+                    <li class="border">
                         <a href="https://github.com/kawaljen" target="_blank">
-                            <span class="icon-github"></span>
-                            Github
+                            <div class="icon-github icon"></div>
+                            <div>Github</div>
+                            <div>Consulter mon profil -></div>
                          </a>
                     </li>
                 </ul>
                 <div class="columns3">
+                    <h4>Laissez moi un message !</h4>
                     <form class="contact-form" id="contact-form">
-                        <input type="text" name="name" placeholder="Name" class="form-input"/>
-                        <input type="text" name="email" placeholder="Email" class="form-input"/>
-                        <textarea class="form-input">Votre message</textarea>
-                        <input type="button" class="button" value="Envoyer"/>
-
+                        <input type="text" name="name" placeholder="Votre nom" class="form-input"/>
+                        <input type="text" name="email" placeholder="Votre email" class="form-input"/>
+                        <textarea class="form-input" name="message">Votre message</textarea>
+                        <input type="submit" class="button" value="Envoyer" id="submit-btn"/>
                     </form>
+                    <div id="result"></div>
                 </div>
             </div>
 
