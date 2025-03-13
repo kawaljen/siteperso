@@ -22,6 +22,7 @@ body,
 textarea,
 input {
     font-family: Inter !important;
+    color: #0f2733;
 }
 
 .container,
@@ -109,12 +110,12 @@ h2 {
 }
 
 h1 {
-    font-size: 4em;
+    font-size: 6.6em;
 }
 
 h2 {
     margin: 60px 0 10px;
-    font-size: 3.2em;
+    font-size: 5em;
     font-weight: 500;
     position:relative;
 }
@@ -124,11 +125,11 @@ h2 .gost{
     left:5px;
     width:100%;
 }
-header .title p.subtitle {
+header p.subtitle {
     margin: 30px 0;
     font-size: 1.8em;
     font-weight: 500;
-    color:#000;
+    color:#0f2733;
     text-transform: uppercase;
 
 }
@@ -197,7 +198,7 @@ nav div {
 }
 
 .title p {
-    font-size: 1.05em;
+    font-size: 1.8em;
     text-transform: uppercase;
 }
 
@@ -216,14 +217,17 @@ nav {
 nav a {
     color: #fff;
     text-transform:uppercase ;
-    font-size: small;
+    font-size: 1em;
 }
 
 nav div {
     text-align: right;
-    padding: 20px;
+    padding: 20px 0;
     position: relative;
     width: 100%;
+}
+nav .container{
+    max-width: 1100px;
 }
 
 nav ul li,
@@ -275,9 +279,8 @@ header h2 {
 }
 
 header img {
-    border-radius: 50%;
     max-width: 300px;
-    margin: 0 auto;
+    margin: 150px 0 0 auto;
     display: block;
 }
 
@@ -285,14 +288,16 @@ header .button {
     width: 100%;
     text-align: center;
 }
-header .title p {
-    color:#fff;
-}
+
 header p.text{
     line-height: 2em;
     text-transform:initial;
+    color:#fff;
 }
 
+header p{
+    font-size: 1.2em;
+}
 /* *************************************************** */
 
 .about h2,
@@ -406,7 +411,7 @@ header p.text{
     padding: 15px;
     border-radius: 5px;
     text-decoration: none;
-    background-color: #000;
+    background-color: #0f2733;
     color: #ffffff;
 }
 
@@ -532,9 +537,6 @@ input[type="submit"] {
     font-weight: 400;
     padding: 20px 0;
 }
-.contact .title p{
-    font-weight: bold;
-}
 
 footer {
     background-color: #34b5f6;
@@ -545,6 +547,9 @@ footer {
 @media (max-width: 800px) {
     .container{
         max-width: 450px;
+    }
+    h2{
+        font-size: 4em;
     }
 
     .grid {
@@ -613,5 +618,8 @@ footer {
 
     nav.close div {
         display: none;
+    }
+    header img {
+        margin: 30px auto;
     }
 }
