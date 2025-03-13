@@ -1,3 +1,4 @@
+
 <html lang="fr">
 
 <head>
@@ -31,25 +32,27 @@
 
 <body>
     <nav id="nav" class="close">
-        <span id="mobile-menu">lll</span>
-        <div>
-            <a href="#" id="home">Alexandra Persilié</a>
-            <ul>
-                <li><a href="#skills">Compétences</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#qualification">Expériences</a></li>
-                <li><a href="#contact">Contactez moi</a></li>
-            </ul>
-            <span id="close-button">X</span>
+        <div class="container">
+            <span id="mobile-menu">lll</span>
+            <div>
+                <a href="#" id="home">Alexandra Persilié</a>
+                <ul>
+                    <li><a href="#skills">Compétences</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#qualification">Expériences</a></li>
+                    <li><a href="#contact">Contactez moi</a></li>
+                </ul>
+                <span id="close-button">X</span>
+            </div>
         </div>
     </nav>
-    <header>
+    <header class="gradiant">
         <div class="container grid">
             <div class="columns2 title">
                 <h1>Hello ! </h1>
                 <!-- <h2>My name is Alexandra Persilié <br>I am a web developer</h2> -->
-                <h2>Je m'appelle Alexandra <br>Je suis développeuse Web</h2>
-                <p>Je développe des sites créatifs et fonctionnels, <br>de la communication visuelle au code, avec les
+                <p class="subtitle">Je m'appelle <span class="highlight">Alexandra</span> <br>Je suis développeuse Web</p>
+                <p class="text">Je développe des sites créatifs et fonctionnels, <br>de la communication visuelle au code, avec les
                     nouvelles technos du web</p>
                 <!-- <p>I develop dynamic creative and functional websites, from visual communication to code, through the new web languages.</p> -->
                 <a href="mailto:persiliealexandra@gmail.com" class="button">Contactez moi ! <span
@@ -101,145 +104,249 @@
 
 
         <section class="skills" id="skills">
-            <div class="title">
-                <h2>Mes compétences</h2>
-                <p>Environnement technique</p>
+            <div class="container">
+                <div class="title">
+                    <h2>Mes compétences</h2>
+                    <p>Environnement technique</p>
+                </div>
+                <div class="grid">
+                    <div class="columns3 border content">
+                        <img src="./static/img/langage.png"/>
+                        <h3>Languages</h3>
+                        <ul>
+                            <li>
+                                <span class="icon-bullet "></span>HTML
+                                <div class="data expert">
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                </div>
+
+                            </li>
+                            <li>
+                                <span class="icon-bullet"></span>CSS
+                                <div class="data expert">
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                </div>
+
+                            </li>
+
+                            </li>
+                            <li>
+                                <span class="icon-bullet"></span>Javascript
+                                <div class="data knowlegeable">
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                </div>
+
+                            </li>
+                            <li>
+                                <span class="icon-bullet"></span>PHP
+                                <div class="data starter">
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="icon-bullet"></span>C#
+                                <div class="data starter">
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-empty"></span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="icon-bullet"></span>Typescript
+                                <div class="data starter">
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-empty"></span>
+                                    <span class="icon-star-empty"></span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="columns3 border content">
+                        <img src="./static/img/framework.png"/>
+                        <h3>Framework</h3>
+                        <ul>
+                            <li>
+                                <span class="icon-bullet"></span>ASP.NET
+                                <div class="data medium">
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-empty"></span>
+                                </div>
+
+                            </li>
+                            <li>
+                                <span class="icon-bullet"></span>Vue JS
+                                <div class="data starter">
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-empty"></span>
+                                    <span class="icon-star-empty"></span>
+                                </div>
+
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="columns3 border content">
+                        <img src="./static/img/cms.png"/>
+                        <h3>CMS</h3>
+                        <ul>
+                            <li>
+                                <span class="icon-bullet"></span>Wordpress
+                                <div class="data expert">
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-empty"></span>
+                                </div>
+
+                            </li>
+                            <li>
+                                <span class="icon-bullet"></span>Django
+                                <div class="data starter">
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-empty"></span>
+                                    <span class="icon-star-empty"></span>
+                                </div>
+
+                            </li>
+
+                            <li>
+                                <span class="icon-bullet"></span>Magento
+                                <div class="data medium">
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-full"></span>
+                                    <span class="icon-star-empty"></span>
+                                    <span class="icon-star-empty"></span>
+                                </div>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="grid">
-                <div class="columns3 border content">
-                    <h3>Languages</h3>
-                    <ul>
-                        <li>
-                            <span class="icon-bullet "></span>HTML
-                            <div class="data expert">
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                            </div>
+        </section>
 
-                        </li>
-                        <li>
-                            <span class="icon-bullet"></span>CSS
-                            <div class="data expert">
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                            </div>
-
-                        </li>
-
-                        </li>
-                        <li>
-                            <span class="icon-bullet"></span>Javascript
-                            <div class="data knowlegeable">
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                            </div>
-
-                        </li>
-                        <li>
-                            <span class="icon-bullet"></span>PHP
-                            <div class="data starter">
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                            </div>
-                        </li>
-                        <li>
-                            <span class="icon-bullet"></span>C#
-                            <div class="data starter">
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-empty"></span>
-                            </div>
-                        </li>
-                        <li>
-                            <span class="icon-bullet"></span>Typescript
-                            <div class="data starter">
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-empty"></span>
-                                <span class="icon-star-empty"></span>
-                            </div>
-                        </li>
-                    </ul>
+        <section class="qualification gradiant" id="qualification">
+            <div class="container">
+                <div class="title">
+                    <h2>Mes Expériences Pro<div class="gost">Mes Expériences Pro <div class="gost">Mes Expériences Pro</div></div><!--<span class="icon-briefcase"></span> --></h2>
                 </div>
-                <div class="columns3 border content">
-                    <h3>Framework</h3>
-                    <ul>
+                <!-- <ul class="button-container">
+                    <li class="button">
+                        <span class="icon-earth"></span></span> Formations
+                    </li>
+                    <li class="button active">
+                        <span class="icon-briefcase"></span> Expériences
+                    </li>
+                </ul> -->
+                <div class="content-container">
+                    <ul class="content">
                         <li>
-                            <span class="icon-bullet"></span>ASP.NET
-                            <div class="data medium">
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-empty"></span>
+                            <div>
+                                Formation dev
                             </div>
-
+                            <div>|</div>
                         </li>
                         <li>
-                            <span class="icon-bullet"></span>Vue JS
-                            <div class="data starter">
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-empty"></span>
-                                <span class="icon-star-empty"></span>
+                            <div class="vide">vide</div>
+                            <div>|</div>
+                            <div>
+                                Licence
                             </div>
-
                         </li>
 
                     </ul>
-                </div>
-                <div class="columns3 border content">
-                    <h3>CMS</h3>
-                    <ul>
-                        <li>
-                            <span class="icon-bullet"></span>Wordpress
-                            <div class="data expert">
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-empty"></span>
+                    <ul class="content active jobs">
+                        <li class="grid-notresp">
+                            <span class="bullet"></span>
+                            <div class="block columns4">
+                                <div class="position">Développeuse web</div>
+                                <div class="info">Mediaclash</div>
+                                <div class="dates">2016</div>
+                                <ul class="tags">
+                                    <li>Django</li>
+                                    <li>Wordpress</li>
+                                    <li>Javascript</li>
+                                    <li>Sass</li>
+                                    <li>PHP</li>
+                                </ul>
                             </div>
-
+                            <div class="block line columns4"><span></span><span></span></div>
+                            <div class="block vide columns4">vide</div>
                         </li>
-                        <li>
-                            <span class="icon-bullet"></span>Django
-                            <div class="data starter">
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-empty"></span>
-                                <span class="icon-star-empty"></span>
+                        <li class="grid-notresp">
+                            <span class="bullet"></span>
+                            <div class="block vide columns4">vide</div>
+                            <div class="block line columns4"><span></span><span></span></div>
+                            <div class="block columns4">
+                                <div class="position">Développeuse web</div>
+                                <div class="info">Abel and Cole</div>
+                                <div class="dates">2015</div>
+                                <ul class="tags">
+                                    <li>ASP.NET</li>
+                                    <li>Javascript</li>
+                                    <li>Less</li>
+                                    <li>C#</li>
+                                </ul>
                             </div>
-
                         </li>
-
-                        <li>
-                            <span class="icon-bullet"></span>Magento
-                            <div class="data medium">
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-full"></span>
-                                <span class="icon-star-empty"></span>
-                                <span class="icon-star-empty"></span>
+                        <li class="grid-notresp">
+                            <span class="bullet"></span>
+                            <div class="block columns4">
+                                <div class="position">Rich media testeur</div>
+                                <div class="info">Opera</div>
+                                <div class="dates">2014 </div>
+                                <ul class="tags">
+                                    <li>Javascript</li>
+                                    <li>css</li>
+                                </ul>
                             </div>
-
+                            <div class="block line columns4"><span></span><span></span></div>
+                            <div class="block vide columns4">vide</div>
+                        </li>
+                        <li class="grid-notresp">
+                            <span class="bullet"></span>
+                            <div class="block vide columns4">vide</div>
+                            <div class="block line columns4"><span></span><span></span></div>
+                            <div class="block columns4">
+                                <div class="position">Free lance Web dev</div>
+                                <div class="dates">2013-2020 </div>
+                                <ul class="tags">
+                                    <li>Wordpress</li>
+                                    <li>Javascript</li>
+                                    <li>Sass</li>
+                                    <li>PHP</li>
+                                    <li>vueJs</li>
+                                </ul>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -248,218 +355,128 @@
 
 
         <section id="portfolio" class="portfolio">
-            <div class="title">
-                <h2>Portfolio</h2>
-                <p>Mes dernières réalisations</p>
-            </div>
+            <div class="container">
 
-
-            <!--<div class="edgtf-eh-item-content edgtf-eh-custom-7621" style="padding: 51px 110px 80px 0px">
-                 tahoetahoe -->
-            <!-- <div class="edgtf-progress-bar  ">
-                    <h4 class="edgtf-pb-title-holder">
-                        <span class="edgtf-pb-title">Wordpress</span>
-                        <span class="edgtf-pb-percent" style="opacity: 1;">86</span>
-                    </h4>
-                    <div class="edgtf-pb-content-holder">
-                        <div data-percentage="86" class="edgtf-pb-content" style="width: 86%;"></div>
-                    </div>
+                <div class="title">
+                    <h2>Portfolio</h2>
+                    <p>Mes dernières réalisations</p>
                 </div>
-                <div class="edgtf-progress-bar  ">
-                    <h4 class="edgtf-pb-title-holder">
-                        <span class="edgtf-pb-title">asp.net</span>
-                        <span class="edgtf-pb-percent" style="opacity: 1;">76</span>
-                    </h4>
-                    <div class="edgtf-pb-content-holder">
-                        <div data-percentage="76" class="edgtf-pb-content" style="width: 76%;"></div>
+
+
+                <!--<div class="edgtf-eh-item-content edgtf-eh-custom-7621" style="padding: 51px 110px 80px 0px">
+                    tahoetahoe -->
+                <!-- <div class="edgtf-progress-bar  ">
+                        <h4 class="edgtf-pb-title-holder">
+                            <span class="edgtf-pb-title">Wordpress</span>
+                            <span class="edgtf-pb-percent" style="opacity: 1;">86</span>
+                        </h4>
+                        <div class="edgtf-pb-content-holder">
+                            <div data-percentage="86" class="edgtf-pb-content" style="width: 86%;"></div>
+                        </div>
                     </div>
-                </div>
-                <div class="edgtf-progress-bar  ">
-                    <h4 class="edgtf-pb-title-holder">
-                        <span class="edgtf-pb-title">HTML/CSS/JS</span>
-                        <span class="edgtf-pb-percent" style="opacity: 1;">75</span>
-                    </h4>
-                    <div class="edgtf-pb-content-holder">
-                        <div data-percentage="75" class="edgtf-pb-content" style="width: 75%;"></div>
+                    <div class="edgtf-progress-bar  ">
+                        <h4 class="edgtf-pb-title-holder">
+                            <span class="edgtf-pb-title">asp.net</span>
+                            <span class="edgtf-pb-percent" style="opacity: 1;">76</span>
+                        </h4>
+                        <div class="edgtf-pb-content-holder">
+                            <div data-percentage="76" class="edgtf-pb-content" style="width: 76%;"></div>
+                        </div>
                     </div>
-                </div>
-                <div class="edgtf-progress-bar  ">
-                    <h4 class="edgtf-pb-title-holder">
-                        <span class="edgtf-pb-title">Vuejs</span>
-                        <span class="edgtf-pb-percent" style="opacity: 1;">90</span>
-                    </h4>
-                    <div class="edgtf-pb-content-holder">
-                        <div data-percentage="90" class="edgtf-pb-content" style="width: 90%;"></div>
+                    <div class="edgtf-progress-bar  ">
+                        <h4 class="edgtf-pb-title-holder">
+                            <span class="edgtf-pb-title">HTML/CSS/JS</span>
+                            <span class="edgtf-pb-percent" style="opacity: 1;">75</span>
+                        </h4>
+                        <div class="edgtf-pb-content-holder">
+                            <div data-percentage="75" class="edgtf-pb-content" style="width: 75%;"></div>
+                        </div>
                     </div>
+                    <div class="edgtf-progress-bar  ">
+                        <h4 class="edgtf-pb-title-holder">
+                            <span class="edgtf-pb-title">Vuejs</span>
+                            <span class="edgtf-pb-percent" style="opacity: 1;">90</span>
+                        </h4>
+                        <div class="edgtf-pb-content-holder">
+                            <div data-percentage="90" class="edgtf-pb-content" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                </div> -->
+
+
+                <div id="mod_perc_kwljn">
+                    <div id="mperc_kjn"></div>
                 </div>
-            </div> -->
 
 
-            <div id="mod_perc_kwljn">
-                <div id="mperc_kjn"></div>
-            </div>
-
-
-            <ul class="content grid">
-                <li class="border columns3 data">
-                    <img src="https://declics.eu/porto/800-ee64.png" alt="EE64 website" />
-                    <h3>Education environnement</h3>
-                    <p>Site Joomla avec un panier codé en OO PHP</p>
-                    <a href="https://github.com/kawaljen/madeinshoreditch" target="_blank">Voir le code du panier sur
-                        Github</a>
-                </li>
-                <li class="border columns3 data">
-                    <img src="https://declics.eu/porto/800-folie_douce.png" alt="Folie doyce" />
-                    <h3>Folie douce</h3>
-                    <p>Site Wordpress avec un thème créé sur mesure</p>
-
-                </li>
-                <li class="border columns3 data">
-                    <img src="https://declics.eu/porto/800-MISbtq.png" alt="Made in shoreditch website" />
-                    <h3>Made in Shoreditch</h3>
-                    <p>Site wordpress avec un thème créé sur mesure</p>
-                    <a href="" target="_blank">Voir le theme Wordpress sur Github</a>
-                </li>
-            </ul>
-        </section>
-
-
-        <section class="qualification" id="qualification">
-            <div class="title">
-                <h2>Expériences <!--<span class="icon-briefcase"></span> --></h2>
-            </div>
-            <!-- <ul class="button-container">
-                <li class="button">
-                    <span class="icon-earth"></span></span> Formations
-                </li>
-                <li class="button active">
-                    <span class="icon-briefcase"></span> Expériences
-                </li>
-            </ul> -->
-            <div class="content-container">
-                <ul class="content">
-                    <li>
-                        <div>
-                            Formation dev
-                        </div>
-                        <div>|</div>
+                <ul class="content grid">
+                    <li class="border columns3 data">
+                        <img src="https://declics.eu/porto/800-ee64.png" alt="EE64 website" />
+                        <h3>Education environnement</h3>
+                        <p>Site Joomla avec un panier codé en OO PHP</p>
+                        <a href="https://github.com/kawaljen/madeinshoreditch" target="_blank">Voir le code du panier sur
+                            Github</a>
                     </li>
-                    <li>
-                        <div class="vide">vide</div>
-                        <div>|</div>
-                        <div>
-                            Licence
-                        </div>
+                    <li class="border columns3 data">
+                        <img src="https://declics.eu/porto/toutesensemble.png" alt="toutes ensemble" />
+                        <h3>Toutes ensemble</h3>
+                        <p>Site Wordpress avec un thème créé sur mesure</p>
+                        <a href="https://toutesensembleasso.fr/" target="_blank">Site de l'association</a>
                     </li>
+                <!-- <li class="border columns3 data">
+                        <img src="https://declics.eu/porto/800-folie_douce.png" alt="Folie doyce" />
+                        <h3>Folie douce</h3>
+                        <p>Site Wordpress avec un thème créé sur mesure</p>
 
-                </ul>
-                <ul class="content active jobs">
-                    <li class="grid-notresp">
-                        <span class="bullet"></span>
-                        <div class="block columns4">
-                            <div class="position">Développeuse web</div>
-                            <div class="info">Mediaclash</div>
-                            <div class="dates">Janvier-mai 2016</div>
-                            <ul class="tags">
-                                <li>Django</li>
-                                <li>Wordpress</li>
-                                <li>Javascript</li>
-                                <li>Sass</li>
-                                <li>PHP</li>
-                            </ul>
-                        </div>
-                        <div class="block line columns4"><span></span><span></span></div>
-                        <div class="block vide columns4">vide</div>
-                    </li>
-                    <li class="grid-notresp">
-                        <span class="bullet"></span>
-                        <div class="block vide columns4">vide</div>
-                        <div class="block line columns4"><span></span><span></span></div>
-                        <div class="block columns4">
-                            <div class="position">Développeuse web</div>
-                            <div class="info">Abel and Cole</div>
-                            <div class="dates">Janvier-septembre 2015</div>
-                            <ul class="tags">
-                                <li>ASP.NET</li>
-                                <li>Javascript</li>
-                                <li>Less</li>
-                                <li>C#</li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="grid-notresp">
-                        <span class="bullet"></span>
-                        <div class="block columns4">
-                            <div class="position">Rich media testeur</div>
-                            <div class="info">Opera</div>
-                            <div class="dates">Juillet-decembre 2014 </div>
-                            <ul class="tags">
-                                <li>Javascript</li>
-                                <li>css</li>
-                            </ul>
-                        </div>
-                        <div class="block line columns4"><span></span><span></span></div>
-                        <div class="block vide columns4">vide</div>
-                    </li>
-                    <li class="grid-notresp">
-                        <span class="bullet"></span>
-                        <div class="block vide columns4">vide</div>
-                        <div class="block line columns4"><span></span><span></span></div>
-                        <div class="block columns4">
-                            <div class="position">Free lance Web dev</div>
-                            <div class="dates">2013-2020 </div>
-                            <ul class="tags">
-                                <li>Wordpress</li>
-                                <li>Javascript</li>
-                                <li>Sass</li>
-                                <li>PHP</li>
-                                <li>vueJs</li>
-                            </ul>
-                        </div>
+                    </li>-->
+                    <li class="border columns3 data">
+                        <img src="https://declics.eu/porto/800-MISbtq.png" alt="Made in shoreditch website" />
+                        <h3>Made in Shoreditch</h3>
+                        <p>Site wordpress avec un thème créé sur mesure</p>
+                        <a href="" target="_blank">Voir le theme Wordpress sur Github</a>
                     </li>
                 </ul>
             </div>
         </section>
 
 
-        <section id="contact" class="contact">
-            <div class="title">
-                <h2>Contactez moi</h2>
-                <p>Keep in touch</p>
-            </div>
-            <div class="grid">
-                <ul class="columns3">
-                    <li class="border">
-                        <a href="mailto:persiliealexandra@gmail.com">
-                            <div class="icon-mail icon"></div>
-                            <div> Email</div>
-                            <div>Ecrivez moi -></div>
-                        </a>
-                    </li>
-                    <li class="border">
-                        <a href="https://www.linkedin.com/in/alexandra-persili%C3%A9-43456697/" target="_blank">
-                            <div class="icon-linkedin icon"></div>
-                            <div>Linkedin</div>
-                            <div>Consulter mon profil -></div>
-                        </a>
-                    </li>
-                    <li class="border">
-                        <a href="https://github.com/kawaljen" target="_blank">
-                            <div class="icon-github icon"></div>
-                            <div>Github</div>
-                            <div>Consulter mon profil -></div>
-                        </a>
-                    </li>
-                </ul>
-                <div class="columns3">
-                    <h4>Laissez moi un message !</h4>
-                    <form class="contact-form" id="contact-form">
-                        <input type="text" name="name" placeholder="Votre nom" class="form-input" />
-                        <input type="text" name="email" placeholder="Votre email" class="form-input" />
-                        <textarea class="form-input" name="message">Votre message</textarea>
-                        <input type="submit" class="button" value="Envoyer" id="submit-btn" />
-                    </form>
-                    <div id="result"></div>
+
+        <section id="contact" class="contact gradiant">
+            <div class="container">
+                <div class="title">
+                    <h2>Contactez moi<div class="gost">Contactez moi<div class="gost">Contactez moi</div></div></h2>
+
+                    <p>> Keep in touch</p>
+                </div>
+                <div class="grid">
+                    <ul class="columns3">
+                        <li>
+                            <a href="mailto:persiliealexandra@gmail.com">
+                                <div class="icon-mail icon"></div>
+                                <div> Email</div>
+                                <div>Ecrivez moi -></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/alexandra-persili%C3%A9-43456697/" target="_blank">
+                                <div class="icon-linkedin icon"></div>
+                                <div>Linkedin</div>
+                                <div>Consulter mon profil -></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/kawaljen" target="_blank">
+                                <div class="icon-github icon"></div>
+                                <div>Github</div>
+                                <div>Consulter mon profil -></div>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- <div class="columns3">
+                        <h4>Laissez moi un message !</h4>
+
+                        <div id="result"></div>
+                    </div> -->
                 </div>
             </div>
 
@@ -467,7 +484,7 @@
 
     </main>
 
-    <footer>
+     <footer>
 
 
     </footer>
